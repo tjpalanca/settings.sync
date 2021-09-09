@@ -5,12 +5,14 @@
 #'
 #' @export
 sync_addin <- function() {
+  # nocov start
   runGadget(
     sync_addin_ui(),
     sync_addin_server,
     viewer = dialogViewer("Sync Settings", width = 400, height = 300),
     stopOnCancel = FALSE
   )
+  # nocov end
 }
 
 #' @describeIn sync_addin Actual Sync Addin
@@ -33,7 +35,7 @@ sync_addin_ui <- function(request) {
       )
     ),
     miniButtonBlock(
-      borer = "bottom",
+      border = "bottom",
       actionButton(
         inputId  = "reset",
         label    = "Reset Gist ID",
@@ -224,8 +226,9 @@ sync_existing <- function(gist_id = NULL) {
       config_slug = path %>%
         str_remove(download_dir) %>%
         str_remove("^/"),
-      config_path = config_slug %>%
-        { file.path(sync_config_dir(), .) } %>%
+      config_path = config_slug %>% {
+        file.path(sync_config_dir(), .)
+        } %>%
         str_replace_all("\\*\\|\\|\\*", "/")
     ) %>%
     mutate(
