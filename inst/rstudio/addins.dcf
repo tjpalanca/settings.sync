@@ -1,0 +1,4 @@
+Name: Settings Sync
+Description: Syncs your RStudio Settings to a GitHub Gist
+Binding: sync_addin
+Interactive: true
