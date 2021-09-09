@@ -6,7 +6,7 @@
 \alias{settings.sync-package}
 \title{settings.sync: RStudio Settings Sync}
 \description{
-Sync RStudio settings to GitHub Gist
+RStudio addin that allows settings to be synced to GitHub Gists.
 }
 \seealso{
 Useful links:

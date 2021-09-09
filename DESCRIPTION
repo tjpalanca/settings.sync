@@ -7,7 +7,7 @@ Authors@R:
            role = c("aut", "cre"),
            email = "mail@tjpalanca.com",
            comment = c(ORCID = "0000-0002-0610-9213"))
-Description: Sync RStudio settings to GitHub Gist
+Description: RStudio addin that allows settings to be synced to GitHub Gists.
 License: AGPL (>= 3)
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
