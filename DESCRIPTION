@@ -1,0 +1,14 @@
+Package: settings.sync
+Title: RStudio Settings Sync
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Troy James",
+           family = "Palanca",
+           role = c("aut", "cre"),
+           email = "mail@tjpalanca.com",
+           comment = c(ORCID = "0000-0002-0610-9213"))
+Description: What the package does (one paragraph).
+License: AGPL (>= 3)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
