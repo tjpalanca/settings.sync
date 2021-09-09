@@ -26,3 +26,10 @@ pkg_user <- function(...) {
   path(user_dir, ...)
 
 }
+
+globalVariables(
+  names = c("config_slug", ".", "config_path", "config_file_info",
+            "is_new", "is_changed", "gist_updated_at", "config_file_updated_at",
+            "upload_path", "is_new", "is_updated", "upload_full_path"),
+  package = pkg_name
+)

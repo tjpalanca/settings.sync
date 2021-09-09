@@ -27,6 +27,13 @@ sync_new()
 
 sync_existing(gist_id = NULL)
 }
+\arguments{
+\item{request}{(rook) request}
+
+\item{input, output, session}{(shiny) arguments}
+
+\item{gist_id}{(str) Gist ID to sync with, NULL if none.}
+}
 \description{
 This Gadget syncs rstudio settings to a GitHub gist.
 }

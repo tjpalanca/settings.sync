@@ -14,6 +14,7 @@ sync_addin <- function() {
 }
 
 #' @describeIn sync_addin Actual Sync Addin
+#' @param request (rook) request
 sync_addin_ui <- function(request) {
 
   miniPage(
@@ -50,6 +51,7 @@ sync_addin_ui <- function(request) {
 }
 
 #' @describeIn sync_addin Server Function
+#' @param input,output,session (shiny) arguments
 sync_addin_server <- function(input, output, session) {
 
   observeEvent(input$close, {
@@ -91,6 +93,7 @@ sync_addin_server <- function(input, output, session) {
 #' If no value is supplied, then retrieves the stored gist ID. If a value is
 #' supplied, then writes the Gist ID into a text file defined by the user
 #' directory.
+#' @param gist_id (str) Gist ID to sync with, NULL if none.
 sync_gist_id <- function(gist_id = NULL) {
 
   sync_gist_id_file <- pkg_user("sync_gist_id")

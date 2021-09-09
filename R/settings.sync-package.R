@@ -23,6 +23,7 @@
 #' @importFrom gistr update_files
 #' @importFrom lubridate as_datetime
 #' @importFrom magrittr %>%
+#' @importFrom magrittr %T>%
 #' @importFrom purrr map
 #' @importFrom purrr map_dbl
 #' @importFrom purrr map2
@@ -30,5 +31,6 @@
 #' @importFrom purrr quietly
 #' @importFrom stringr str_remove
 #' @importFrom stringr str_replace_all
+#' @importFrom utils download.file
 ## usethis namespace: end
 NULL
