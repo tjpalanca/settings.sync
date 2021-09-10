@@ -1,3 +1,7 @@
+# settings.sync 0.1.1
+
+* Move to explicit imports in `testthat` helpers.
+
 # settings.sync 0.1.0
 
 * Initial version with basic settings sync.

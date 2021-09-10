@@ -1,6 +1,6 @@
 Package: settings.sync
 Title: RStudio Settings Sync
-Version: 0.1.0
+Version: 0.1.1
 Authors@R: 
     person(given = "Troy James",
            family = "Palanca",
