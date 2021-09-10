@@ -1,1 +1,1 @@
-library(checkmate)
+expect_class <- checkmate::expect_class
